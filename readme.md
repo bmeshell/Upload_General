@@ -13,16 +13,16 @@ It is based on the [DaVinci pdex-formulary-sample-data](https://github.com/HL7-D
 ### One time setup
 
 - `bundle install`
-- If installation hangs for any gem, `ctrl-C` to abort, then attempt to install the gem manually (example: `gem install nokogiri --verbose`), then re-run `bundle install`
+    - If installation hangs for any gem, `ctrl-C` to abort, then attempt to install the gem manually (example: `gem install nokogiri --verbose`), then re-run `bundle install`
 
 ### Configure your project
 
 - Copy .json files to `upload` folder
     - If you built your FHIR implementation guide using [SUSHI](https://github.com/FHIR/sushi) to compile [FSH](https://fshschool.org/), then the .json files can be found in `output/examples.json.zip`.
-- In upload_general.rb, update the following variables based on your project's need:
-    - `FHIR_SERVER` the server to upload FHIR instances to
+- In `upload_general.rb`, update the following variables based on your project's need:
+    - `FHIR_SERVER` The server to upload FHIR instances to
     - `BUILD_IG_DEFINITIONS` Your implementation guide url for definitions.json.zip
-    - `SAMPLE_RESOURCE_FILES` array of FHIR resource types to upload (others are ignored)
+    - `SAMPLE_RESOURCE_FILES` Array of FHIR resource types to upload (others are ignored)
 
 ### Run Upload General
 

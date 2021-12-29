@@ -6,9 +6,9 @@ require 'tmpdir'
 require 'fileutils'
 
 #todo: update FHIR_SERVER, BUILD_IG_DEFINITIONS, and SAMPLE_RESOURCE_FILES for your project's need
-FHIR_SERVER = 'http://localhost:8080/fhir/' #the server to upload FHIR instances to
+FHIR_SERVER = 'http://localhost:8080/fhir/' #The server to upload FHIR instances to
 BUILD_IG_DEFINITIONS = 'https://paciowg.github.io/my-project-name-ig/definitions.json.zip' #Your implementation guide url for definitions.json.zip
-SAMPLE_RESOURCE_FILES = ["Practitioner-*.json", "Organization-*.json", "PractitionerRole-*.json", "Patient-*.json", "Observation-*.json"] #array of FHIR resource types to upload (others are ignored)
+SAMPLE_RESOURCE_FILES = ["Practitioner-*.json", "Organization-*.json", "PractitionerRole-*.json", "Patient-*.json", "Observation-*.json"] #Array of FHIR resource types to upload (others are ignored)
 
 
 def upload_conformance_resources
