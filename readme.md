@@ -1,6 +1,6 @@
 # Upload General
 
-This project is a lightweight tool to upload batches of local .json files as FHIR instances to a remote FHIR server.
+Upload General is what happens when Upload Colonel gets promoted. This project is a lightweight tool to upload batches of local .json files as FHIR instances to a remote FHIR server.
 
 It is based on the [DaVinci pdex-formulary-sample-data](https://github.com/HL7-DaVinci/pdex-formulary-sample-data) project.
 
